@@ -2,7 +2,7 @@ import Container from "@/components/common/container";
 import { type FC, useEffect, useMemo, useState } from "react";
 import axios from "axios";
 
-import type { IProductInterface } from "@/components/types";
+import type { IProductInterface } from "@/types";
 import ProductCards from "@/components/product-list/components/product-cards";
 import SearchInput from "@/components/product-list/components/search-input";
 import Pagination from "@/components/product-list/components/pagination";

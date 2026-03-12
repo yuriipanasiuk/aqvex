@@ -48,7 +48,10 @@ const VolumeSelect: FC<VolumeSelectProps> = ({ volumes, selectedId }) => {
         type="button"
       >
         <span>{selectedVolume.label}</span>
-        <VectorIcon id="arrow" width="10" height="10" />
+
+        <span className={styles.iconArrowWrapper}>
+          <VectorIcon id="arrow" width="10" height="7" />
+        </span>
       </button>
 
       {isOpen && (

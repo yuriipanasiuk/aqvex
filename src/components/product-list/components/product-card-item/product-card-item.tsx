@@ -1,5 +1,5 @@
 import type { FC } from "react";
-import type { IProductInterface } from "@/components/types";
+
 import styles from "./product-card-item.module.css";
 import DiscountBadge from "@/components/product-list/components/discount-badge";
 
@@ -7,6 +7,7 @@ import Rating from "@/components/product-list/components/rating";
 import AvailabilityBar from "@/components/product-list/components/availability-bar";
 import ByProductButton from "@/components/product-list/components/by-product-button";
 import VolumeSelect from "@/components/product-list/components/volume-select";
+import type { IProductInterface } from "@/types";
 
 interface ProductCardItemProps {
   item: IProductInterface;

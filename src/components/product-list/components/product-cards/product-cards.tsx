@@ -1,5 +1,5 @@
 import { type FC, useMemo, useState } from "react";
-import type { IProductInterface } from "@/components/types";
+import type { IProductInterface } from "@/types";
 import ProductCardItem from "@/components/product-list/components/product-card-item";
 import styles from "./product-cards.module.css";
 import VectorIcon from "@/components/common/vector-icon";
