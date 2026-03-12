@@ -1,0 +1,40 @@
+.wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+
+}
+
+.searchInput{
+    width: 453px;
+    height: 43px;
+    padding-left: 52px;
+    border-radius: 12px;
+    background-color: #f6f7f9;
+    outline: none;
+    border: 1px solid transparent;
+
+    font-family: "Afacad", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: #182a42;
+
+    &:focus{ border-color: #43A0FD}
+}
+
+.iconWrapper {
+    position: absolute;
+    right: 410px;
+    left: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #8090A4;
+    pointer-events: none;
+}

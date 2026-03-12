@@ -1,0 +1,12 @@
+.header {
+    position: sticky;
+    top: 0;
+    padding: 31px 0;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.logo{
+    width: 187px;
+    height: 50px;
+}

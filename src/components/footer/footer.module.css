@@ -1,0 +1,52 @@
+.footer {
+    margin-top: auto;
+    padding: 20px 0;
+    background-color: #fff;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.footerIcon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background: linear-gradient(90deg, #003181 0%, #2288ed 100%);
+}
+
+.madeInUkraine{
+    width: 58px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #f1f2f4;
+}
+
+.iconWrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.footerText{
+    margin-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    color: #8090a4;
+}
+
+.paymentWrapper{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin-left: auto;
+}

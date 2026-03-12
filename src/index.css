@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Klein';
+  src: url('/public/fonts/klein/Klein-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Klein';
+  src: url('/public/fonts/klein/Klein-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Klein';
+  src: url('/public/fonts/klein/Klein-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Afacad';
+  src: url('/public/fonts/afacad/Afacad.ttf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Klein", sans-serif;
+  background-color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}

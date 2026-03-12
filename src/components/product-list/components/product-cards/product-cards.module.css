@@ -1,0 +1,52 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 60px;
+    column-gap: 20px;
+}
+
+.sortingWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.countText {
+    color: #182a42;
+    opacity: 0.5;
+    letter-spacing: -0.02em;
+}
+
+.sortButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #182a42;
+    cursor: pointer;
+
+    transition: color 0.3s ease-in-out;
+
+    &:hover, :active {
+        color: #243a57;
+    }
+}
+
+.sortIcon {
+    margin-right: 10px;
+}
+
+.sortIconArrow {
+    margin-left: 18px;
+    opacity: 0.5;
+    transition: transform 0.25s ease;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+

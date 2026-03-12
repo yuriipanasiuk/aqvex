@@ -1,0 +1,25 @@
+.availabilityWrapper{
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.isInStock{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.drop{
+    margin-left: 14px;
+    margin-right: 14px;
+}
+
+.category{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #8090a4;
+}
+
