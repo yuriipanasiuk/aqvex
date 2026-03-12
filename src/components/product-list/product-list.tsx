@@ -55,7 +55,7 @@ const ProductList: FC = () => {
 
         {currentItems.length > 0 ? (
           <>
-            <ProductCards items={currentItems} />
+            <ProductCards count={productList.length} items={currentItems} />
 
             {totalPages > 1 && (
               <Pagination

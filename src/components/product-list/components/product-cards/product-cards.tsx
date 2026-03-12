@@ -9,9 +9,10 @@ type SortDirection = "ASC" | "DESC";
 
 interface ProductCardProps {
   items: IProductInterface[];
+  count: number;
 }
 
-const ProductCards: FC<ProductCardProps> = ({ items }) => {
+const ProductCards: FC<ProductCardProps> = ({ items, count }) => {
   const [direction, setDirection] = useState<SortDirection>("ASC");
 
   const handleSort = () => {
@@ -27,7 +28,7 @@ const ProductCards: FC<ProductCardProps> = ({ items }) => {
   return (
     <>
       <div className={styles.sortingWrapper}>
-        <p className={styles.countText}>{items.length} товаров</p>
+        <p className={styles.countText}>{count} товаров</p>
 
         <button className={styles.sortButton} onClick={handleSort}>
           <span className={styles.sortIcon}>
